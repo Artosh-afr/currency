@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./javasc.js" defer></script>
+    <title>Project 1-js currency converter</title>
+</head>
+<body>
+    <div id="left"></div>
+    <div id="right"></div>
+    <main>
+   <header>
+      <h1>Practical Project 1: Currency Converter.</h1>
+      
+  </header>
+
+
+    <section class="inputcontainer">
+        <h2>You can convert SIX different currencies on this page</h2>
+        <label for="money">Amount:</label>
+        <br>
+        <input type="text" onclick="this.select();"  name="money" id="money">
+    </section>
+
+<section class="currencyContainer">
+    <h3>Currency:</h3>
+    
+   <select name="Currency1" id="Currency1">
+    <option value="none">Choose a currency</option>
+    <option value=0>ZAR(R)</option>
+    <option value=1>USD($)</option>
+    <option value=2>Pound(£)</option>
+    <option value=3>Ruble(₽)</option>
+    <option value=4>Euro(€)</option>
+    <option value=5>Yen(¥)</option>
+  </select>
+  <h3>to:</h3>
+
+  <select name="Currency2" id="Currency2">
+    <option value="none">Choose a currency</option>
+    <option value=0>ZAR(R)</option>
+    <option value=1>USD($)</option>
+    <option value=2>Pound(£)</option>
+    <option value=3>Ruble(₽)</option>
+    <option value=4>Euro(€)</option>
+    <option value=5>Yen(¥)</option>
+  </select>
+
+</section>
+  
+    <button>Convert</button>
+    <h3>Result:</h3>
+    <div class="result_container">
+    <h4 id="result">0.00</h4>
+    </div>
+</main>
+
+</body>
+</html>
