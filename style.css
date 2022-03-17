@@ -184,3 +184,12 @@ main{
     margin: 0;
 }
 }
+
+@media(max-width:500px){
+    .result_container{
+        width:100%;
+    }
+
+}
+
+
